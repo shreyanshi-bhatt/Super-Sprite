@@ -176,10 +176,10 @@ function init(){
     //     i++
     // }
     genericObjects.push(
-        new GenericObject({x: 0, y: 0, image: hillsIMG}),
         new GenericObject({x: -1, y: -1, image: backgroundIMG}),
         new GenericObject({x: backgroundIMG.width - 1, y: -1, image: backgroundIMG}),
         new GenericObject({x: 2 * backgroundIMG.width - 2, y: -1, image: backgroundIMG}),
+        new GenericObject({x: 0, y: 0, image: hillsIMG}),
     )
     
     scrollOffset = 0;
